@@ -10,4 +10,5 @@ Write-Host "Test de la passerelle"
 Test-NetConnection 192.168.1.126
 Write-Host "Test de résolution DNS"
 Resolve-DnsName www.example.com
-
+Write-Host "Informations système"
+Get-ComputerInfo
